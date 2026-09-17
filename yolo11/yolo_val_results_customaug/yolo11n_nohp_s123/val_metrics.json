@@ -1,0 +1,12 @@
+{
+  "run_name": "yolo11n_nohp_s123",
+  "split": "val",
+  "data": "/workspace/data/bob/composite_grouped_yolo_splits/no_high_pass_composite/data.yaml",
+  "imgsz": 1280,
+  "precision": 0.5938790497340652,
+  "recall": 0.548371990371817,
+  "f1": 0.570219023854169,
+  "map50": 0.5717233691393693,
+  "map50_95": 0.30492915327739517,
+  "fitness": 0.30492915327739517
+}

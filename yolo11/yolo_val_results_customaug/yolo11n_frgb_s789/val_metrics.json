@@ -1,0 +1,12 @@
+{
+  "run_name": "yolo11n_frgb_s789",
+  "split": "val",
+  "data": "/workspace/data/bob/composite_grouped_yolo_splits/scientific_rgb_composite/data.yaml",
+  "imgsz": 1280,
+  "precision": 0.8092362982425002,
+  "recall": 0.6944444444444444,
+  "f1": 0.7474587332322974,
+  "map50": 0.8029468668148323,
+  "map50_95": 0.5006355667654278,
+  "fitness": 0.5006355667654278
+}

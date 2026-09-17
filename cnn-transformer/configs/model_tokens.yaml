@@ -1,0 +1,23 @@
+model:
+  embed_dim: 128
+  heads: 4
+  transformer_layers: 4
+  use_sra: false       # set true if tokens grow (ceil tiling ~497 blocks)
+
+loss:
+  type: weighted_bce
+  alpha: 0.7           # upweight positives
+
+train:
+  batch_size: 16
+  epochs: 50
+  lr: 1e-3
+  weight_decay: 1e-4
+  grad_clip: 1.0
+  amp: true            # mixed precision if supported
+
+eval:
+  metrics: [roc_auc, f1, precision, recall]
+  threshold: 0.5
+device: mps
+seed: 42

@@ -1,0 +1,1367 @@
+================================================================================
+20x20 BLOCK-MASK TEST-SET EVALUATION
+================================================================================
+Validation NetCDF directory: /workspace/isw-detector/yolo11/results_ood/mascarene_ridge/yolo11n_frgb_s789/valid/netcdf
+Validation NetCDF files found: 225
+Test NetCDF directory: /workspace/isw-detector/yolo11/results_ood/mascarene_ridge/yolo11n_frgb_s789/test/netcdf
+Test NetCDF files found: 81
+Block size: 20x20
+Ground-truth block rule: positive when more than 25% of finite pixels are positive
+Prediction block score: mean YOLO confidence (internal_wave_bbox_confidence) over the block's finite pixels
+Confusion-matrix threshold: selected once from the pooled VALIDATION set via Ultralytics' curve-based confidence sweep, then applied unchanged to the test set for every result below
+
+--------------------------------------------------------------------------------
+[validation] [1/225] SWOT_L3_LR_SSH_Expert_001_258_20230730T095540_20230730T104707_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 7
+
+--------------------------------------------------------------------------------
+[validation] [2/225] SWOT_L3_LR_SSH_Expert_001_286_20230731T095612_20230731T104738_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [3/225] SWOT_L3_LR_SSH_Expert_002_064_20230813T082002_20230813T091129_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 59
+
+--------------------------------------------------------------------------------
+[validation] [4/225] SWOT_L3_LR_SSH_Expert_002_133_20230815T192953_20230815T202119_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 8
+
+--------------------------------------------------------------------------------
+[validation] [5/225] SWOT_L3_LR_SSH_Expert_002_258_20230820T064046_20230820T073212_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 73
+
+--------------------------------------------------------------------------------
+[validation] [6/225] SWOT_L3_LR_SSH_Expert_002_286_20230821T064117_20230821T073243_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 81
+
+--------------------------------------------------------------------------------
+[validation] [7/225] SWOT_L3_LR_SSH_Expert_003_064_20230903T050508_20230903T055634_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 45
+
+--------------------------------------------------------------------------------
+[validation] [8/225] SWOT_L3_LR_SSH_Expert_003_092_20230904T050539_20230904T055705_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [9/225] SWOT_L3_LR_SSH_Expert_003_133_20230905T161459_20230905T170625_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 80
+
+--------------------------------------------------------------------------------
+[validation] [10/225] SWOT_L3_LR_SSH_Expert_003_551_20230920T143951_20230920T153117_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 54
+
+--------------------------------------------------------------------------------
+[validation] [11/225] SWOT_L3_LR_SSH_Expert_004_258_20231001T001055_20231001T010221_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 66
+
+--------------------------------------------------------------------------------
+[validation] [12/225] SWOT_L3_LR_SSH_Expert_004_286_20231002T001125_20231002T010252_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 95
+
+--------------------------------------------------------------------------------
+[validation] [13/225] SWOT_L3_LR_SSH_Expert_005_064_20231014T223515_20231014T232642_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [14/225] SWOT_L3_LR_SSH_Expert_005_092_20231015T223546_20231015T232713_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [15/225] SWOT_L3_LR_SSH_Expert_005_133_20231017T094506_20231017T103632_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 77
+
+--------------------------------------------------------------------------------
+[validation] [16/225] SWOT_L3_LR_SSH_Expert_005_258_20231021T205559_20231021T214725_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 58
+
+--------------------------------------------------------------------------------
+[validation] [17/225] SWOT_L3_LR_SSH_Expert_005_551_20231101T080958_20231101T090125_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [18/225] SWOT_L3_LR_SSH_Expert_006_064_20231104T192021_20231104T201147_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 69
+
+--------------------------------------------------------------------------------
+[validation] [19/225] SWOT_L3_LR_SSH_Expert_006_092_20231105T192052_20231105T201218_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 35
+
+--------------------------------------------------------------------------------
+[validation] [20/225] SWOT_L3_LR_SSH_Expert_006_258_20231111T174104_20231111T183230_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 35
+
+--------------------------------------------------------------------------------
+[validation] [21/225] SWOT_L3_LR_SSH_Expert_006_286_20231112T174135_20231112T183301_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 36
+
+--------------------------------------------------------------------------------
+[validation] [22/225] SWOT_L3_LR_SSH_Expert_006_551_20231122T045504_20231122T054630_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 22
+
+--------------------------------------------------------------------------------
+[validation] [23/225] SWOT_L3_LR_SSH_Expert_007_064_20231125T160526_20231125T165652_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [24/225] SWOT_L3_LR_SSH_Expert_007_092_20231126T160557_20231126T165724_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [25/225] SWOT_L3_LR_SSH_Expert_007_133_20231128T031517_20231128T040643_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 54
+
+--------------------------------------------------------------------------------
+[validation] [26/225] SWOT_L3_LR_SSH_Expert_007_258_20231202T142610_20231202T151736_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 54
+
+--------------------------------------------------------------------------------
+[validation] [27/225] SWOT_L3_LR_SSH_Expert_007_286_20231203T142641_20231203T151807_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 63
+
+--------------------------------------------------------------------------------
+[validation] [28/225] SWOT_L3_LR_SSH_Expert_008_064_20231216T125029_20231216T134156_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [29/225] SWOT_L3_LR_SSH_Expert_008_092_20231217T125100_20231217T134227_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [30/225] SWOT_L3_LR_SSH_Expert_008_133_20231219T000020_20231219T005147_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 41
+
+--------------------------------------------------------------------------------
+[validation] [31/225] SWOT_L3_LR_SSH_Expert_008_551_20240102T222514_20240102T231640_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [32/225] SWOT_L3_LR_SSH_Expert_009_064_20240106T093536_20240106T102702_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [33/225] SWOT_L3_LR_SSH_Expert_009_092_20240107T093607_20240107T102733_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [34/225] SWOT_L3_LR_SSH_Expert_009_133_20240108T204527_20240108T213653_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 13
+
+--------------------------------------------------------------------------------
+[validation] [35/225] SWOT_L3_LR_SSH_Expert_009_258_20240113T075619_20240113T084745_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 51
+
+--------------------------------------------------------------------------------
+[validation] [36/225] SWOT_L3_LR_SSH_Expert_009_286_20240114T075650_20240114T084817_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 66
+
+--------------------------------------------------------------------------------
+[validation] [37/225] SWOT_L3_LR_SSH_Expert_010_064_20240127T062042_20240127T071208_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [38/225] SWOT_L3_LR_SSH_Expert_010_092_20240128T062113_20240128T071239_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [39/225] SWOT_L3_LR_SSH_Expert_010_133_20240129T173033_20240129T182159_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 63
+
+--------------------------------------------------------------------------------
+[validation] [40/225] SWOT_L3_LR_SSH_Expert_010_258_20240203T044125_20240203T053252_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 27
+
+--------------------------------------------------------------------------------
+[validation] [41/225] SWOT_L3_LR_SSH_Expert_010_286_20240204T044156_20240204T053323_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 50
+
+--------------------------------------------------------------------------------
+[validation] [42/225] SWOT_L3_LR_SSH_Expert_010_551_20240213T155524_20240213T164651_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [43/225] SWOT_L3_LR_SSH_Expert_011_064_20240217T030547_20240217T035713_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 40
+
+--------------------------------------------------------------------------------
+[validation] [44/225] SWOT_L3_LR_SSH_Expert_011_092_20240218T030618_20240218T035744_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 33
+
+--------------------------------------------------------------------------------
+[validation] [45/225] SWOT_L3_LR_SSH_Expert_011_133_20240219T141538_20240219T150704_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [46/225] SWOT_L3_LR_SSH_Expert_011_258_20240224T012631_20240224T021757_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 13
+
+--------------------------------------------------------------------------------
+[validation] [47/225] SWOT_L3_LR_SSH_Expert_011_551_20240305T124029_20240305T133155_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 23
+
+--------------------------------------------------------------------------------
+[validation] [48/225] SWOT_L3_LR_SSH_Expert_012_064_20240308T235050_20240309T004217_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [49/225] SWOT_L3_LR_SSH_Expert_012_092_20240309T235121_20240310T004247_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 15
+
+--------------------------------------------------------------------------------
+[validation] [50/225] SWOT_L3_LR_SSH_Expert_012_133_20240311T110040_20240311T115207_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 83
+
+--------------------------------------------------------------------------------
+[validation] [51/225] SWOT_L3_LR_SSH_Expert_012_286_20240316T221204_20240316T230330_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 75
+
+--------------------------------------------------------------------------------
+[validation] [52/225] SWOT_L3_LR_SSH_Expert_012_551_20240326T092532_20240326T101659_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [53/225] SWOT_L3_LR_SSH_Expert_013_064_20240329T203554_20240329T212720_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 45
+
+--------------------------------------------------------------------------------
+[validation] [54/225] SWOT_L3_LR_SSH_Expert_013_092_20240330T203625_20240330T212751_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [55/225] SWOT_L3_LR_SSH_Expert_013_133_20240401T074545_20240401T083711_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 48
+
+--------------------------------------------------------------------------------
+[validation] [56/225] SWOT_L3_LR_SSH_Expert_013_286_20240406T185708_20240406T194834_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [57/225] SWOT_L3_LR_SSH_Expert_014_092_20240420T172131_20240420T181258_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [58/225] SWOT_L3_LR_SSH_Expert_014_133_20240422T043051_20240422T052217_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 15
+
+--------------------------------------------------------------------------------
+[validation] [59/225] SWOT_L3_LR_SSH_Expert_014_258_20240426T154143_20240426T163310_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 54
+
+--------------------------------------------------------------------------------
+[validation] [60/225] SWOT_L3_LR_SSH_Expert_014_286_20240427T154214_20240427T163340_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 75
+
+--------------------------------------------------------------------------------
+[validation] [61/225] SWOT_L3_LR_SSH_Expert_014_551_20240507T025541_20240507T034708_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [62/225] SWOT_L3_LR_SSH_Expert_015_064_20240510T140604_20240510T145731_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 4
+
+--------------------------------------------------------------------------------
+[validation] [63/225] SWOT_L3_LR_SSH_Expert_015_258_20240517T122648_20240517T131814_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [64/225] SWOT_L3_LR_SSH_Expert_015_286_20240518T122719_20240518T131845_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [65/225] SWOT_L3_LR_SSH_Expert_015_551_20240527T234046_20240528T003213_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [66/225] SWOT_L3_LR_SSH_Expert_016_092_20240601T105141_20240601T114307_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [67/225] SWOT_L3_LR_SSH_Expert_016_286_20240608T091224_20240608T100350_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 60
+
+--------------------------------------------------------------------------------
+[validation] [68/225] SWOT_L3_LR_SSH_Expert_016_551_20240617T202552_20240617T211718_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [69/225] SWOT_L3_LR_SSH_Expert_017_064_20240621T073614_20240621T082740_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [70/225] SWOT_L3_LR_SSH_Expert_017_092_20240622T073645_20240622T082811_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [71/225] SWOT_L3_LR_SSH_Expert_017_133_20240623T184604_20240623T193731_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 45
+
+--------------------------------------------------------------------------------
+[validation] [72/225] SWOT_L3_LR_SSH_Expert_017_258_20240628T055657_20240628T064823_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 73
+
+--------------------------------------------------------------------------------
+[validation] [73/225] SWOT_L3_LR_SSH_Expert_017_286_20240629T055727_20240629T064854_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 86
+
+--------------------------------------------------------------------------------
+[validation] [74/225] SWOT_L3_LR_SSH_Expert_017_551_20240708T171055_20240708T180221_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [75/225] SWOT_L3_LR_SSH_Expert_018_064_20240712T042117_20240712T051244_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 39
+
+--------------------------------------------------------------------------------
+[validation] [76/225] SWOT_L3_LR_SSH_Expert_018_092_20240713T042148_20240713T051315_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [77/225] SWOT_L3_LR_SSH_Expert_018_133_20240714T153108_20240714T162234_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [78/225] SWOT_L3_LR_SSH_Expert_018_258_20240719T024201_20240719T033328_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [79/225] SWOT_L3_LR_SSH_Expert_018_286_20240720T024232_20240720T033359_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [80/225] SWOT_L3_LR_SSH_Expert_018_551_20240729T135600_20240729T144726_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 26
+
+--------------------------------------------------------------------------------
+[validation] [81/225] SWOT_L3_LR_SSH_Expert_019_023_20240731T135702_20240731T144828_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 27
+
+--------------------------------------------------------------------------------
+[validation] [82/225] SWOT_L3_LR_SSH_Expert_019_064_20240802T010622_20240802T015748_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [83/225] SWOT_L3_LR_SSH_Expert_019_092_20240803T010652_20240803T015819_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [84/225] SWOT_L3_LR_SSH_Expert_019_133_20240804T121612_20240804T130739_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 47
+
+--------------------------------------------------------------------------------
+[validation] [85/225] SWOT_L3_LR_SSH_Expert_019_258_20240808T232706_20240809T001832_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 59
+
+--------------------------------------------------------------------------------
+[validation] [86/225] SWOT_L3_LR_SSH_Expert_019_286_20240809T232737_20240810T001903_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 60
+
+--------------------------------------------------------------------------------
+[validation] [87/225] SWOT_L3_LR_SSH_Expert_019_551_20240819T104104_20240819T113231_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [88/225] SWOT_L3_LR_SSH_Expert_020_064_20240822T215126_20240822T224252_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 45
+
+--------------------------------------------------------------------------------
+[validation] [89/225] SWOT_L3_LR_SSH_Expert_020_133_20240825T090116_20240825T095243_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 91
+
+--------------------------------------------------------------------------------
+[validation] [90/225] SWOT_L3_LR_SSH_Expert_020_258_20240829T201210_20240829T210337_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 36
+
+--------------------------------------------------------------------------------
+[validation] [91/225] SWOT_L3_LR_SSH_Expert_020_286_20240830T201242_20240830T210408_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 21
+
+--------------------------------------------------------------------------------
+[validation] [92/225] SWOT_L3_LR_SSH_Expert_020_551_20240909T072610_20240909T081737_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 67
+
+--------------------------------------------------------------------------------
+[validation] [93/225] SWOT_L3_LR_SSH_Expert_021_064_20240912T183632_20240912T192758_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 57
+
+--------------------------------------------------------------------------------
+[validation] [94/225] SWOT_L3_LR_SSH_Expert_021_092_20240913T183702_20240913T192829_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 50
+
+--------------------------------------------------------------------------------
+[validation] [95/225] SWOT_L3_LR_SSH_Expert_021_133_20240915T054623_20240915T063749_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [96/225] SWOT_L3_LR_SSH_Expert_021_258_20240919T165717_20240919T174843_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 72
+
+--------------------------------------------------------------------------------
+[validation] [97/225] SWOT_L3_LR_SSH_Expert_021_286_20240920T165748_20240920T174915_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 95
+
+--------------------------------------------------------------------------------
+[validation] [98/225] SWOT_L3_LR_SSH_Expert_021_551_20240930T041118_20240930T050244_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 41
+
+--------------------------------------------------------------------------------
+[validation] [99/225] SWOT_L3_LR_SSH_Expert_022_023_20241002T041220_20241002T050347_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 48
+
+--------------------------------------------------------------------------------
+[validation] [100/225] SWOT_L3_LR_SSH_Expert_022_064_20241003T152140_20241003T161307_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 1
+
+--------------------------------------------------------------------------------
+[validation] [101/225] SWOT_L3_LR_SSH_Expert_022_133_20241006T023131_20241006T032257_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 88
+
+--------------------------------------------------------------------------------
+[validation] [102/225] SWOT_L3_LR_SSH_Expert_022_258_20241010T134222_20241010T143349_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 60
+
+--------------------------------------------------------------------------------
+[validation] [103/225] SWOT_L3_LR_SSH_Expert_022_551_20241021T005622_20241021T014748_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [104/225] SWOT_L3_LR_SSH_Expert_023_064_20241024T120644_20241024T125810_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 92
+
+--------------------------------------------------------------------------------
+[validation] [105/225] SWOT_L3_LR_SSH_Expert_023_092_20241025T120715_20241025T125841_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 45
+
+--------------------------------------------------------------------------------
+[validation] [106/225] SWOT_L3_LR_SSH_Expert_023_133_20241026T231634_20241027T000801_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [107/225] SWOT_L3_LR_SSH_Expert_023_258_20241031T102726_20241031T111852_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 24
+
+--------------------------------------------------------------------------------
+[validation] [108/225] SWOT_L3_LR_SSH_Expert_023_551_20241110T214126_20241110T223252_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 14
+
+--------------------------------------------------------------------------------
+[validation] [109/225] SWOT_L3_LR_SSH_Expert_024_064_20241114T085148_20241114T094314_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [110/225] SWOT_L3_LR_SSH_Expert_024_133_20241116T200138_20241116T205305_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 64
+
+--------------------------------------------------------------------------------
+[validation] [111/225] SWOT_L3_LR_SSH_Expert_024_258_20241121T071232_20241121T080358_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 65
+
+--------------------------------------------------------------------------------
+[validation] [112/225] SWOT_L3_LR_SSH_Expert_024_286_20241122T071303_20241122T080429_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 78
+
+--------------------------------------------------------------------------------
+[validation] [113/225] SWOT_L3_LR_SSH_Expert_024_551_20241201T182631_20241201T191757_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [114/225] SWOT_L3_LR_SSH_Expert_025_064_20241205T053652_20241205T062819_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 48
+
+--------------------------------------------------------------------------------
+[validation] [115/225] SWOT_L3_LR_SSH_Expert_025_133_20241207T164643_20241207T173809_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [116/225] SWOT_L3_LR_SSH_Expert_025_258_20241212T035736_20241212T044902_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [117/225] SWOT_L3_LR_SSH_Expert_026_092_20241227T022228_20241227T031355_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [118/225] SWOT_L3_LR_SSH_Expert_026_133_20241228T133148_20241228T142314_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [119/225] SWOT_L3_LR_SSH_Expert_026_258_20250102T004241_20250102T013407_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 57
+
+--------------------------------------------------------------------------------
+[validation] [120/225] SWOT_L3_LR_SSH_Expert_026_286_20250103T004312_20250103T013438_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 35
+
+--------------------------------------------------------------------------------
+[validation] [121/225] SWOT_L3_LR_SSH_Expert_027_133_20250118T101652_20250118T110818_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 66
+
+--------------------------------------------------------------------------------
+[validation] [122/225] SWOT_L3_LR_SSH_Expert_027_258_20250122T212745_20250122T221911_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 10
+
+--------------------------------------------------------------------------------
+[validation] [123/225] SWOT_L3_LR_SSH_Expert_027_286_20250123T212816_20250123T221942_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [124/225] SWOT_L3_LR_SSH_Expert_027_551_20250202T084143_20250202T093310_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [125/225] SWOT_L3_LR_SSH_Expert_028_064_20250205T195205_20250205T204331_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 69
+
+--------------------------------------------------------------------------------
+[validation] [126/225] SWOT_L3_LR_SSH_Expert_028_092_20250206T195235_20250206T204402_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 52
+
+--------------------------------------------------------------------------------
+[validation] [127/225] SWOT_L3_LR_SSH_Expert_028_258_20250212T181249_20250212T190415_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 27
+
+--------------------------------------------------------------------------------
+[validation] [128/225] SWOT_L3_LR_SSH_Expert_029_064_20250226T163711_20250226T172837_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [129/225] SWOT_L3_LR_SSH_Expert_029_092_20250227T163742_20250227T172908_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [130/225] SWOT_L3_LR_SSH_Expert_029_133_20250301T034701_20250301T043827_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 63
+
+--------------------------------------------------------------------------------
+[validation] [131/225] SWOT_L3_LR_SSH_Expert_029_258_20250305T145753_20250305T154919_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 76
+
+--------------------------------------------------------------------------------
+[validation] [132/225] SWOT_L3_LR_SSH_Expert_029_286_20250306T145824_20250306T154950_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 93
+
+--------------------------------------------------------------------------------
+[validation] [133/225] SWOT_L3_LR_SSH_Expert_029_551_20250316T021153_20250316T030319_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [134/225] SWOT_L3_LR_SSH_Expert_030_064_20250319T132215_20250319T141342_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 51
+
+--------------------------------------------------------------------------------
+[validation] [135/225] SWOT_L3_LR_SSH_Expert_030_133_20250322T003206_20250322T012332_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [136/225] SWOT_L3_LR_SSH_Expert_030_258_20250326T114258_20250326T123425_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [137/225] SWOT_L3_LR_SSH_Expert_030_286_20250327T114329_20250327T123456_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 10
+
+--------------------------------------------------------------------------------
+[validation] [138/225] SWOT_L3_LR_SSH_Expert_030_551_20250405T225656_20250405T234822_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 68
+
+--------------------------------------------------------------------------------
+[validation] [139/225] SWOT_L3_LR_SSH_Expert_031_064_20250409T100719_20250409T105846_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [140/225] SWOT_L3_LR_SSH_Expert_031_092_20250410T100750_20250410T105917_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [141/225] SWOT_L3_LR_SSH_Expert_031_133_20250411T211710_20250411T220836_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 24
+
+--------------------------------------------------------------------------------
+[validation] [142/225] SWOT_L3_LR_SSH_Expert_031_258_20250416T082803_20250416T091930_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 71
+
+--------------------------------------------------------------------------------
+[validation] [143/225] SWOT_L3_LR_SSH_Expert_031_286_20250417T082835_20250417T092001_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 89
+
+--------------------------------------------------------------------------------
+[validation] [144/225] SWOT_L3_LR_SSH_Expert_031_551_20250426T194203_20250426T203329_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [145/225] SWOT_L3_LR_SSH_Expert_032_092_20250501T065255_20250501T074422_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 21
+
+--------------------------------------------------------------------------------
+[validation] [146/225] SWOT_L3_LR_SSH_Expert_032_133_20250502T180215_20250502T185341_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 58
+
+--------------------------------------------------------------------------------
+[validation] [147/225] SWOT_L3_LR_SSH_Expert_032_258_20250507T051307_20250507T060433_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [148/225] SWOT_L3_LR_SSH_Expert_032_286_20250508T051337_20250508T060504_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [149/225] SWOT_L3_LR_SSH_Expert_032_551_20250517T162707_20250517T171833_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [150/225] SWOT_L3_LR_SSH_Expert_033_092_20250522T033800_20250522T042927_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [151/225] SWOT_L3_LR_SSH_Expert_033_133_20250523T144720_20250523T153846_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [152/225] SWOT_L3_LR_SSH_Expert_033_258_20250528T015813_20250528T024939_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 70
+
+--------------------------------------------------------------------------------
+[validation] [153/225] SWOT_L3_LR_SSH_Expert_033_286_20250529T015844_20250529T025010_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 84
+
+--------------------------------------------------------------------------------
+[validation] [154/225] SWOT_L3_LR_SSH_Expert_033_551_20250607T131212_20250607T140339_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [155/225] SWOT_L3_LR_SSH_Expert_034_064_20250611T002234_20250611T011400_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [156/225] SWOT_L3_LR_SSH_Expert_034_092_20250612T002305_20250612T011431_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [157/225] SWOT_L3_LR_SSH_Expert_034_258_20250617T224317_20250617T233443_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 24
+
+--------------------------------------------------------------------------------
+[validation] [158/225] SWOT_L3_LR_SSH_Expert_034_551_20250628T095718_20250628T104844_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [159/225] SWOT_L3_LR_SSH_Expert_035_064_20250701T210740_20250701T215906_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 51
+
+--------------------------------------------------------------------------------
+[validation] [160/225] SWOT_L3_LR_SSH_Expert_035_092_20250702T210811_20250702T215938_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [161/225] SWOT_L3_LR_SSH_Expert_035_133_20250704T081731_20250704T090857_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [162/225] SWOT_L3_LR_SSH_Expert_035_258_20250708T192824_20250708T201950_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [163/225] SWOT_L3_LR_SSH_Expert_035_286_20250709T192855_20250709T202022_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [164/225] SWOT_L3_LR_SSH_Expert_036_064_20250722T175245_20250722T184412_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 42
+
+--------------------------------------------------------------------------------
+[validation] [165/225] SWOT_L3_LR_SSH_Expert_036_258_20250729T161329_20250729T170455_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 60
+
+--------------------------------------------------------------------------------
+[validation] [166/225] SWOT_L3_LR_SSH_Expert_036_286_20250730T161400_20250730T170526_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 81
+
+--------------------------------------------------------------------------------
+[validation] [167/225] SWOT_L3_LR_SSH_Expert_036_551_20250809T032727_20250809T041853_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [168/225] SWOT_L3_LR_SSH_Expert_037_092_20250813T143820_20250813T152947_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [169/225] SWOT_L3_LR_SSH_Expert_037_133_20250815T014740_20250815T023906_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 79
+
+--------------------------------------------------------------------------------
+[validation] [170/225] SWOT_L3_LR_SSH_Expert_037_286_20250820T125904_20250820T135031_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 33
+
+--------------------------------------------------------------------------------
+[validation] [171/225] SWOT_L3_LR_SSH_Expert_037_551_20250830T001232_20250830T010359_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 58
+
+--------------------------------------------------------------------------------
+[validation] [172/225] SWOT_L3_LR_SSH_Expert_038_092_20250903T112325_20250903T121452_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 24
+
+--------------------------------------------------------------------------------
+[validation] [173/225] SWOT_L3_LR_SSH_Expert_038_133_20250904T223245_20250904T232411_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [174/225] SWOT_L3_LR_SSH_Expert_038_258_20250909T094337_20250909T103503_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 65
+
+--------------------------------------------------------------------------------
+[validation] [175/225] SWOT_L3_LR_SSH_Expert_038_286_20250910T094408_20250910T103534_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 69
+
+--------------------------------------------------------------------------------
+[validation] [176/225] SWOT_L3_LR_SSH_Expert_038_551_20250919T205734_20250919T214901_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [177/225] SWOT_L3_LR_SSH_Expert_039_064_20250923T080757_20250923T085923_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [178/225] SWOT_L3_LR_SSH_Expert_039_092_20250924T080828_20250924T085954_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [179/225] SWOT_L3_LR_SSH_Expert_039_133_20250925T191748_20250925T200914_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 56
+
+--------------------------------------------------------------------------------
+[validation] [180/225] SWOT_L3_LR_SSH_Expert_039_286_20251001T062912_20251001T072038_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 84
+
+--------------------------------------------------------------------------------
+[validation] [181/225] SWOT_L3_LR_SSH_Expert_040_064_20251014T045302_20251014T054428_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 78
+
+--------------------------------------------------------------------------------
+[validation] [182/225] SWOT_L3_LR_SSH_Expert_040_092_20251015T045333_20251015T054500_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 9
+
+--------------------------------------------------------------------------------
+[validation] [183/225] SWOT_L3_LR_SSH_Expert_040_133_20251016T160253_20251016T165420_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [184/225] SWOT_L3_LR_SSH_Expert_040_258_20251021T031347_20251021T040513_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 23
+
+--------------------------------------------------------------------------------
+[validation] [185/225] SWOT_L3_LR_SSH_Expert_040_286_20251022T031418_20251022T040544_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 35
+
+--------------------------------------------------------------------------------
+[validation] [186/225] SWOT_L3_LR_SSH_Expert_041_092_20251105T013839_20251105T023005_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [187/225] SWOT_L3_LR_SSH_Expert_041_133_20251106T124758_20251106T133924_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 50
+
+--------------------------------------------------------------------------------
+[validation] [188/225] SWOT_L3_LR_SSH_Expert_041_258_20251110T235850_20251111T005016_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 36
+
+--------------------------------------------------------------------------------
+[validation] [189/225] SWOT_L3_LR_SSH_Expert_041_286_20251111T235921_20251112T005047_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 69
+
+--------------------------------------------------------------------------------
+[validation] [190/225] SWOT_L3_LR_SSH_Expert_041_551_20251121T111249_20251121T120415_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [191/225] SWOT_L3_LR_SSH_Expert_042_092_20251125T222342_20251125T231508_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [192/225] SWOT_L3_LR_SSH_Expert_042_258_20251201T204354_20251201T213520_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [193/225] SWOT_L3_LR_SSH_Expert_042_286_20251202T204425_20251202T213551_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [194/225] SWOT_L3_LR_SSH_Expert_042_551_20251212T075752_20251212T084918_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 57
+
+--------------------------------------------------------------------------------
+[validation] [195/225] SWOT_L3_LR_SSH_Expert_043_092_20251216T190845_20251216T200012_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [196/225] SWOT_L3_LR_SSH_Expert_043_133_20251218T061805_20251218T070931_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [197/225] SWOT_L3_LR_SSH_Expert_043_286_20251223T172930_20251223T182056_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 69
+
+--------------------------------------------------------------------------------
+[validation] [198/225] SWOT_L3_LR_SSH_Expert_043_551_20260102T044259_20260102T053425_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [199/225] SWOT_L3_LR_SSH_Expert_044_064_20260105T155321_20260105T164447_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [200/225] SWOT_L3_LR_SSH_Expert_044_092_20260106T155352_20260106T164518_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [201/225] SWOT_L3_LR_SSH_Expert_044_133_20260108T030311_20260108T035437_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 95
+
+--------------------------------------------------------------------------------
+[validation] [202/225] SWOT_L3_LR_SSH_Expert_044_551_20260123T012803_20260123T021929_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [203/225] SWOT_L3_LR_SSH_Expert_045_133_20260128T234816_20260129T003942_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 103
+
+--------------------------------------------------------------------------------
+[validation] [204/225] SWOT_L3_LR_SSH_Expert_045_258_20260202T105908_20260202T115034_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 56
+
+--------------------------------------------------------------------------------
+[validation] [205/225] SWOT_L3_LR_SSH_Expert_045_286_20260203T105939_20260203T115105_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 50
+
+--------------------------------------------------------------------------------
+[validation] [206/225] SWOT_L3_LR_SSH_Expert_046_064_20260216T092328_20260216T101455_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [207/225] SWOT_L3_LR_SSH_Expert_046_092_20260217T092400_20260217T101526_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [208/225] SWOT_L3_LR_SSH_Expert_046_133_20260218T203320_20260218T212446_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 79
+
+--------------------------------------------------------------------------------
+[validation] [209/225] SWOT_L3_LR_SSH_Expert_046_258_20260223T074413_20260223T083540_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 66
+
+--------------------------------------------------------------------------------
+[validation] [210/225] SWOT_L3_LR_SSH_Expert_046_551_20260305T185814_20260305T194940_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [211/225] SWOT_L3_LR_SSH_Expert_047_064_20260309T060837_20260309T070003_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 84
+
+--------------------------------------------------------------------------------
+[validation] [212/225] SWOT_L3_LR_SSH_Expert_047_092_20260310T060908_20260310T070034_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [213/225] SWOT_L3_LR_SSH_Expert_047_133_20260311T171827_20260311T180954_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 78
+
+--------------------------------------------------------------------------------
+[validation] [214/225] SWOT_L3_LR_SSH_Expert_047_258_20260316T042920_20260316T052047_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [215/225] SWOT_L3_LR_SSH_Expert_047_286_20260317T042951_20260317T052118_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [216/225] SWOT_L3_LR_SSH_Expert_048_133_20260401T140331_20260401T145457_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 43
+
+--------------------------------------------------------------------------------
+[validation] [217/225] SWOT_L3_LR_SSH_Expert_048_551_20260416T122824_20260416T131951_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [218/225] SWOT_L3_LR_SSH_Expert_049_064_20260419T233846_20260420T003013_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [219/225] SWOT_L3_LR_SSH_Expert_049_092_20260420T233918_20260421T003044_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [220/225] SWOT_L3_LR_SSH_Expert_049_133_20260422T104837_20260422T114004_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 84
+
+--------------------------------------------------------------------------------
+[validation] [221/225] SWOT_L3_LR_SSH_Expert_049_258_20260426T215930_20260426T225056_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [222/225] SWOT_L3_LR_SSH_Expert_049_286_20260427T220001_20260427T225127_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [223/225] SWOT_L3_LR_SSH_Expert_049_551_20260507T091329_20260507T100455_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [224/225] SWOT_L3_LR_SSH_Expert_050_092_20260511T202421_20260511T211548_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[validation] [225/225] SWOT_L3_LR_SSH_Expert_050_133_20260513T073341_20260513T082507_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [1/81] SWOT_L3_LR_SSH_Expert_001_344_20230802T114008_20230802T123134_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 19
+
+--------------------------------------------------------------------------------
+[test] [2/81] SWOT_L3_LR_SSH_Expert_001_372_20230803T114039_20230803T123205_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 22
+
+--------------------------------------------------------------------------------
+[test] [3/81] SWOT_L3_LR_SSH_Expert_001_400_20230804T114110_20230804T123236_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 39
+
+--------------------------------------------------------------------------------
+[test] [4/81] SWOT_L3_LR_SSH_Expert_001_413_20230804T224959_20230804T234125_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 33
+
+--------------------------------------------------------------------------------
+[test] [5/81] SWOT_L3_LR_SSH_Expert_001_428_20230805T114141_20230805T123307_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 51
+
+--------------------------------------------------------------------------------
+[test] [6/81] SWOT_L3_LR_SSH_Expert_001_497_20230807T225132_20230807T234258_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 46
+
+--------------------------------------------------------------------------------
+[test] [7/81] SWOT_L3_LR_SSH_Expert_002_038_20230812T100225_20230812T105351_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [8/81] SWOT_L3_LR_SSH_Expert_002_066_20230813T100256_20230813T105423_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [9/81] SWOT_L3_LR_SSH_Expert_002_094_20230814T100327_20230814T105454_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [10/81] SWOT_L3_LR_SSH_Expert_002_107_20230814T211216_20230814T220342_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [11/81] SWOT_L3_LR_SSH_Expert_002_191_20230817T211349_20230817T220515_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 18
+
+--------------------------------------------------------------------------------
+[test] [12/81] SWOT_L3_LR_SSH_Expert_002_219_20230818T211420_20230818T220546_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 29
+
+--------------------------------------------------------------------------------
+[test] [13/81] SWOT_L3_LR_SSH_Expert_002_491_20230828T142756_20230828T151922_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [14/81] SWOT_L3_LR_SSH_Expert_003_038_20230902T064730_20230902T073857_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 29
+
+--------------------------------------------------------------------------------
+[test] [15/81] SWOT_L3_LR_SSH_Expert_003_066_20230903T064802_20230903T073928_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 21
+
+--------------------------------------------------------------------------------
+[test] [16/81] SWOT_L3_LR_SSH_Expert_003_094_20230904T064833_20230904T073959_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 46
+
+--------------------------------------------------------------------------------
+[test] [17/81] SWOT_L3_LR_SSH_Expert_003_107_20230904T175721_20230904T184848_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 30
+
+--------------------------------------------------------------------------------
+[test] [18/81] SWOT_L3_LR_SSH_Expert_003_135_20230905T175753_20230905T184919_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 48
+
+--------------------------------------------------------------------------------
+[test] [19/81] SWOT_L3_LR_SSH_Expert_003_150_20230906T064935_20230906T074101_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 26
+
+--------------------------------------------------------------------------------
+[test] [20/81] SWOT_L3_LR_SSH_Expert_003_163_20230906T175824_20230906T184950_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 47
+
+--------------------------------------------------------------------------------
+[test] [21/81] SWOT_L3_LR_SSH_Expert_003_219_20230908T175926_20230908T185052_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 50
+
+--------------------------------------------------------------------------------
+[test] [22/81] SWOT_L3_LR_SSH_Expert_003_344_20230913T051019_20230913T060145_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 40
+
+--------------------------------------------------------------------------------
+[test] [23/81] SWOT_L3_LR_SSH_Expert_003_491_20230918T111302_20230918T120428_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [24/81] SWOT_L3_LR_SSH_Expert_003_497_20230918T162143_20230918T171309_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 62
+
+--------------------------------------------------------------------------------
+[test] [25/81] SWOT_L3_LR_SSH_Expert_003_525_20230919T162214_20230919T171340_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 45
+
+--------------------------------------------------------------------------------
+[test] [26/81] SWOT_L3_LR_SSH_Expert_004_163_20230927T144327_20230927T153453_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 51
+
+--------------------------------------------------------------------------------
+[test] [27/81] SWOT_L3_LR_SSH_Expert_004_219_20230929T144429_20230929T153555_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 33
+
+--------------------------------------------------------------------------------
+[test] [28/81] SWOT_L3_LR_SSH_Expert_004_344_20231004T015521_20231004T024647_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 69
+
+--------------------------------------------------------------------------------
+[test] [29/81] SWOT_L3_LR_SSH_Expert_004_372_20231005T015552_20231005T024718_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 59
+
+--------------------------------------------------------------------------------
+[test] [30/81] SWOT_L3_LR_SSH_Expert_005_038_20231014T001738_20231014T010904_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 17
+
+--------------------------------------------------------------------------------
+[test] [31/81] SWOT_L3_LR_SSH_Expert_005_066_20231015T001809_20231015T010935_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 16
+
+--------------------------------------------------------------------------------
+[test] [32/81] SWOT_L3_LR_SSH_Expert_005_094_20231016T001840_20231016T011006_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 45
+
+--------------------------------------------------------------------------------
+[test] [33/81] SWOT_L3_LR_SSH_Expert_005_107_20231016T112729_20231016T121855_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 26
+
+--------------------------------------------------------------------------------
+[test] [34/81] SWOT_L3_LR_SSH_Expert_005_122_20231017T001911_20231017T011038_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 39
+
+--------------------------------------------------------------------------------
+[test] [35/81] SWOT_L3_LR_SSH_Expert_005_135_20231017T112800_20231017T121926_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 32
+
+--------------------------------------------------------------------------------
+[test] [36/81] SWOT_L3_LR_SSH_Expert_005_191_20231019T112902_20231019T122028_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 59
+
+--------------------------------------------------------------------------------
+[test] [37/81] SWOT_L3_LR_SSH_Expert_005_400_20231026T224128_20231026T233254_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [38/81] SWOT_L3_LR_SSH_Expert_005_428_20231027T224159_20231027T233325_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [39/81] SWOT_L3_LR_SSH_Expert_005_497_20231030T095150_20231030T104316_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 36
+
+--------------------------------------------------------------------------------
+[test] [40/81] SWOT_L3_LR_SSH_Expert_006_122_20231106T210417_20231106T215543_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [41/81] SWOT_L3_LR_SSH_Expert_006_163_20231108T081336_20231108T090502_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 37
+
+--------------------------------------------------------------------------------
+[test] [42/81] SWOT_L3_LR_SSH_Expert_006_191_20231109T081407_20231109T090533_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [43/81] SWOT_L3_LR_SSH_Expert_006_219_20231110T081438_20231110T090604_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [44/81] SWOT_L3_LR_SSH_Expert_006_344_20231114T192531_20231114T201657_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 59
+
+--------------------------------------------------------------------------------
+[test] [45/81] SWOT_L3_LR_SSH_Expert_006_372_20231115T192602_20231115T201728_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 47
+
+--------------------------------------------------------------------------------
+[test] [46/81] SWOT_L3_LR_SSH_Expert_006_400_20231116T192633_20231116T201759_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 41
+
+--------------------------------------------------------------------------------
+[test] [47/81] SWOT_L3_LR_SSH_Expert_006_469_20231119T063624_20231119T072750_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 48
+
+--------------------------------------------------------------------------------
+[test] [48/81] SWOT_L3_LR_SSH_Expert_007_400_20231207T161138_20231207T170305_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [49/81] SWOT_L3_LR_SSH_Expert_007_469_20231210T032129_20231210T041255_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [50/81] SWOT_L3_LR_SSH_Expert_007_491_20231210T221319_20231210T230445_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [51/81] SWOT_L3_LR_SSH_Expert_007_525_20231212T032230_20231212T041357_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [52/81] SWOT_L3_LR_SSH_Expert_009_122_20240108T111932_20240108T121058_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [53/81] SWOT_L3_LR_SSH_Expert_009_150_20240109T112003_20240109T121129_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [54/81] SWOT_L3_LR_SSH_Expert_009_191_20240110T222922_20240110T232048_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [55/81] SWOT_L3_LR_SSH_Expert_010_191_20240131T191428_20240131T200555_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 56
+
+--------------------------------------------------------------------------------
+[test] [56/81] SWOT_L3_LR_SSH_Expert_010_219_20240201T191459_20240201T200626_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 38
+
+--------------------------------------------------------------------------------
+[test] [57/81] SWOT_L3_LR_SSH_Expert_010_400_20240208T062654_20240208T071820_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [58/81] SWOT_L3_LR_SSH_Expert_010_413_20240208T173542_20240208T182709_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [59/81] SWOT_L3_LR_SSH_Expert_010_428_20240209T062725_20240209T071851_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [60/81] SWOT_L3_LR_SSH_Expert_010_469_20240210T173644_20240210T182811_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [61/81] SWOT_L3_LR_SSH_Expert_010_491_20240211T122835_20240211T132001_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [62/81] SWOT_L3_LR_SSH_Expert_010_497_20240211T173716_20240211T182842_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 49
+
+--------------------------------------------------------------------------------
+[test] [63/81] SWOT_L3_LR_SSH_Expert_010_525_20240212T173747_20240212T182913_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 51
+
+--------------------------------------------------------------------------------
+[test] [64/81] SWOT_L3_LR_SSH_Expert_011_038_20240216T044809_20240216T053936_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 66
+
+--------------------------------------------------------------------------------
+[test] [65/81] SWOT_L3_LR_SSH_Expert_011_066_20240217T044841_20240217T054007_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 41
+
+--------------------------------------------------------------------------------
+[test] [66/81] SWOT_L3_LR_SSH_Expert_011_219_20240222T160004_20240222T165131_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [67/81] SWOT_L3_LR_SSH_Expert_012_107_20240310T124303_20240310T133430_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [68/81] SWOT_L3_LR_SSH_Expert_013_219_20240404T093011_20240404T102137_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [69/81] SWOT_L3_LR_SSH_Expert_014_066_20240419T190354_20240419T195520_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [70/81] SWOT_L3_LR_SSH_Expert_014_094_20240420T190425_20240420T195551_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [71/81] SWOT_L3_LR_SSH_Expert_014_122_20240421T190456_20240421T195622_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [72/81] SWOT_L3_LR_SSH_Expert_014_150_20240422T190527_20240422T195653_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [73/81] SWOT_L3_LR_SSH_Expert_014_163_20240423T061416_20240423T070542_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [74/81] SWOT_L3_LR_SSH_Expert_014_413_20240502T043600_20240502T052726_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [75/81] SWOT_L3_LR_SSH_Expert_014_525_20240506T043804_20240506T052930_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [76/81] SWOT_L3_LR_SSH_Expert_015_344_20240520T141114_20240520T150241_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [77/81] SWOT_L3_LR_SSH_Expert_016_066_20240531T123403_20240531T132530_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [78/81] SWOT_L3_LR_SSH_Expert_016_107_20240601T234323_20240602T003449_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [79/81] SWOT_L3_LR_SSH_Expert_017_413_20240703T185113_20240703T194239_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [80/81] SWOT_L3_LR_SSH_Expert_017_428_20240704T074255_20240704T083422_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+--------------------------------------------------------------------------------
+[test] [81/81] SWOT_L3_LR_SSH_Expert_017_491_20240706T134405_20240706T143531_v3.0_labeled.nc
+Valid blocks: 105 | Ground-truth positive: 0
+
+================================================================================
+VALIDATION-SELECTED CONFIDENCE THRESHOLD
+================================================================================
+Confidence @ max smoothed F1 (pooled validation set): 0.093093
+This threshold is now applied to the test set for every result below, including every per-file confusion matrix -- the test set never influences its own operating point.
+
+================================================================================
+PER-FILE RESULTS
+================================================================================
+                                                                         file  status  valid_blocks  ground_truth_positive_blocks  predicted_positive_blocks  accuracy  precision   recall  specificity       f1     f0_5      iou   pr_auc  roc_auc  balanced_accuracy  tp  fp  tn  fn
+SWOT_L3_LR_SSH_Expert_001_344_20230802T114008_20230802T123134_v3.0_labeled.nc success           105                            19                         39  0.809524   0.487179 1.000000     0.767442 0.655172 0.542857 0.487179 0.787879 0.918605           0.883721  19  20  66   0
+SWOT_L3_LR_SSH_Expert_001_372_20230803T114039_20230803T123205_v3.0_labeled.nc success           105                            22                         66  0.580952   0.333333 1.000000     0.469880 0.500000 0.384615 0.333333 0.683333 0.771084           0.734940  22  44  39   0
+SWOT_L3_LR_SSH_Expert_001_400_20230804T114110_20230804T123236_v3.0_labeled.nc success           105                            39                         57  0.809524   0.666667 0.974359     0.712121 0.791667 0.711610 0.655172 0.846890 0.874126           0.843240  38  19  47   1
+SWOT_L3_LR_SSH_Expert_001_413_20230804T224959_20230804T234125_v3.0_labeled.nc success           105                            33                         30  0.971429   1.000000 0.909091     1.000000 0.952381 0.980392 0.909091 0.988233 0.984217           0.954545  30   0  72   3
+SWOT_L3_LR_SSH_Expert_001_428_20230805T114141_20230805T123307_v3.0_labeled.nc success           105                            51                         57  0.866667   0.824561 0.921569     0.814815 0.870370 0.842294 0.770492 0.904975 0.888889           0.868192  47  10  44   4
+SWOT_L3_LR_SSH_Expert_001_497_20230807T225132_20230807T234258_v3.0_labeled.nc success           105                            46                         66  0.809524   0.696970 1.000000     0.661017 0.821429 0.741935 0.696970 0.865079 0.855932           0.830508  46  20  39   0
+SWOT_L3_LR_SSH_Expert_002_038_20230812T100225_20230812T105351_v3.0_labeled.nc success           105                             0                         48  0.542857   0.000000 0.000000     0.542857 0.000000 0.000000 0.000000      NaN      NaN           0.271429   0  48  57   0
+SWOT_L3_LR_SSH_Expert_002_066_20230813T100256_20230813T105423_v3.0_labeled.nc success           105                             0                         57  0.457143   0.000000 0.000000     0.457143 0.000000 0.000000 0.000000      NaN      NaN           0.228571   0  57  48   0
+SWOT_L3_LR_SSH_Expert_002_094_20230814T100327_20230814T105454_v3.0_labeled.nc success           105                             0                         45  0.571429   0.000000 0.000000     0.571429 0.000000 0.000000 0.000000      NaN      NaN           0.285714   0  45  60   0
+SWOT_L3_LR_SSH_Expert_002_107_20230814T211216_20230814T220342_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_002_191_20230817T211349_20230817T220515_v3.0_labeled.nc success           105                            18                         51  0.685714   0.352941 1.000000     0.620690 0.521739 0.405405 0.352941 0.700000 0.844828           0.810345  18  33  54   0
+SWOT_L3_LR_SSH_Expert_002_219_20230818T211420_20230818T220546_v3.0_labeled.nc success           105                            29                         54  0.761905   0.537037 1.000000     0.671053 0.698795 0.591837 0.537037 0.802083 0.875000           0.835526  29  25  51   0
+SWOT_L3_LR_SSH_Expert_002_491_20230828T142756_20230828T151922_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_003_038_20230902T064730_20230902T073857_v3.0_labeled.nc success           105                            29                         42  0.876190   0.690476 1.000000     0.828947 0.816901 0.736041 0.690476 0.845238 0.914474           0.914474  29  13  63   0
+SWOT_L3_LR_SSH_Expert_003_066_20230903T064802_20230903T073928_v3.0_labeled.nc success           105                            21                         48  0.742857   0.437500 1.000000     0.678571 0.608696 0.492958 0.437500 0.733333 0.857143           0.839286  21  27  57   0
+SWOT_L3_LR_SSH_Expert_003_094_20230904T064833_20230904T073959_v3.0_labeled.nc success           105                            46                         57  0.895238   0.807018 1.000000     0.813559 0.893204 0.839416 0.807018 0.938546 0.946573           0.906780  46  11  48   0
+SWOT_L3_LR_SSH_Expert_003_107_20230904T175721_20230904T184848_v3.0_labeled.nc success           105                            30                         48  0.828571   0.625000 1.000000     0.760000 0.769231 0.675676 0.625000 0.833333 0.900000           0.880000  30  18  57   0
+SWOT_L3_LR_SSH_Expert_003_135_20230905T175753_20230905T184919_v3.0_labeled.nc success           105                            48                         39  0.819048   0.871795 0.708333     0.912281 0.781609 0.833333 0.641509 0.882461 0.828947           0.810307  34   5  52  14
+SWOT_L3_LR_SSH_Expert_003_150_20230906T064935_20230906T074101_v3.0_labeled.nc success           105                            26                         72  0.561905   0.361111 1.000000     0.417722 0.530612 0.414013 0.361111 0.680556 0.708861           0.708861  26  46  33   0
+SWOT_L3_LR_SSH_Expert_003_163_20230906T175824_20230906T184950_v3.0_labeled.nc success           105                            47                         54  0.914286   0.851852 0.978723     0.862069 0.910891 0.874525 0.836364 0.920050 0.920396           0.920396  46   8  50   1
+SWOT_L3_LR_SSH_Expert_003_219_20230908T175926_20230908T185052_v3.0_labeled.nc success           105                            50                         78  0.733333   0.641026 1.000000     0.490909 0.781250 0.690608 0.641026 0.833333 0.772727           0.745455  50  28  27   0
+SWOT_L3_LR_SSH_Expert_003_344_20230913T051019_20230913T060145_v3.0_labeled.nc success           105                            40                         45  0.952381   0.888889 1.000000     0.923077 0.941176 0.909091 0.888889 0.962897 0.975962           0.961538  40   5  60   0
+SWOT_L3_LR_SSH_Expert_003_491_20230918T111302_20230918T120428_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_003_497_20230918T162143_20230918T171309_v3.0_labeled.nc success           105                            62                         78  0.828571   0.782051 0.983871     0.604651 0.871429 0.815508 0.772152 0.894795 0.813953           0.794261  61  17  26   1
+SWOT_L3_LR_SSH_Expert_003_525_20230919T162214_20230919T171340_v3.0_labeled.nc success           105                            45                         48  0.914286   0.875000 0.933333     0.900000 0.903226 0.886076 0.823529 0.926054 0.931111           0.916667  42   6  54   3
+SWOT_L3_LR_SSH_Expert_004_163_20230927T144327_20230927T153453_v3.0_labeled.nc success           105                            51                         48  0.704762   0.708333 0.666667     0.740741 0.686869 0.699588 0.523077 0.761508 0.694444           0.703704  34  14  40  17
+SWOT_L3_LR_SSH_Expert_004_219_20230929T144429_20230929T153555_v3.0_labeled.nc success           105                            33                         63  0.676190   0.492063 0.939394     0.555556 0.645833 0.543860 0.476923 0.742436 0.783460           0.747475  31  32  40   2
+SWOT_L3_LR_SSH_Expert_004_344_20231004T015521_20231004T024647_v3.0_labeled.nc success           105                            69                         60  0.819048   0.916667 0.797101     0.861111 0.852713 0.889968 0.743243 0.919122 0.820652           0.829106  55   5  31  14
+SWOT_L3_LR_SSH_Expert_004_372_20231005T015552_20231005T024718_v3.0_labeled.nc success           105                            59                         75  0.771429   0.733333 0.932203     0.565217 0.820896 0.766017 0.696203 0.861265 0.778556           0.748710  55  20  26   4
+SWOT_L3_LR_SSH_Expert_005_038_20231014T001738_20231014T010904_v3.0_labeled.nc success           105                            17                          0  0.838095   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000 0.580952 0.500000           0.500000   0   0  88  17
+SWOT_L3_LR_SSH_Expert_005_066_20231015T001809_20231015T010935_v3.0_labeled.nc success           105                            16                         45  0.723810   0.355556 1.000000     0.674157 0.524590 0.408163 0.355556 0.690476 0.853933           0.837079  16  29  60   0
+SWOT_L3_LR_SSH_Expert_005_094_20231016T001840_20231016T011006_v3.0_labeled.nc success           105                            45                         54  0.819048   0.740741 0.888889     0.766667 0.808081 0.766284 0.677966 0.869154 0.875556           0.827778  40  14  46   5
+SWOT_L3_LR_SSH_Expert_005_107_20231016T112729_20231016T121855_v3.0_labeled.nc success           105                            26                         30  0.961905   0.866667 1.000000     0.949367 0.928571 0.890411 0.866667 0.981481 0.993671           0.974684  26   4  75   0
+SWOT_L3_LR_SSH_Expert_005_122_20231017T001911_20231017T011038_v3.0_labeled.nc success           105                            39                         60  0.800000   0.650000 1.000000     0.681818 0.787879 0.698925 0.650000 0.861111 0.886364           0.840909  39  21  45   0
+SWOT_L3_LR_SSH_Expert_005_135_20231017T112800_20231017T121926_v3.0_labeled.nc success           105                            32                         48  0.809524   0.625000 0.937500     0.753425 0.750000 0.669643 0.600000 0.790774 0.845462           0.845462  30  18  55   2
+SWOT_L3_LR_SSH_Expert_005_191_20231019T112902_20231019T122028_v3.0_labeled.nc success           105                            59                         60  0.819048   0.833333 0.847458     0.782609 0.840336 0.836120 0.724638 0.875298 0.809506           0.815033  50  10  36   9
+SWOT_L3_LR_SSH_Expert_005_400_20231026T224128_20231026T233254_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_005_428_20231027T224159_20231027T233325_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_005_497_20231030T095150_20231030T104316_v3.0_labeled.nc success           105                            36                         81  0.552381   0.432099 0.972222     0.333333 0.598291 0.486111 0.426829 0.709115 0.678140           0.652778  35  46  23   1
+SWOT_L3_LR_SSH_Expert_006_122_20231106T210417_20231106T215543_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_006_163_20231108T081336_20231108T090502_v3.0_labeled.nc success           105                            37                         60  0.780952   0.616667 1.000000     0.661765 0.762887 0.667870 0.616667 0.824561 0.852941           0.830882  37  23  45   0
+SWOT_L3_LR_SSH_Expert_006_191_20231109T081407_20231109T090533_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_006_219_20231110T081438_20231110T090604_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_006_344_20231114T192531_20231114T201657_v3.0_labeled.nc success           105                            59                         60  0.761905   0.783333 0.796610     0.717391 0.789916 0.785953 0.652778 0.881782 0.808954           0.757001  47  13  33  12
+SWOT_L3_LR_SSH_Expert_006_372_20231115T192602_20231115T201728_v3.0_labeled.nc success           105                            47                         54  0.780952   0.722222 0.829787     0.741379 0.772277 0.741445 0.629032 0.795220 0.772927           0.785583  39  15  43   8
+SWOT_L3_LR_SSH_Expert_006_400_20231116T192633_20231116T201759_v3.0_labeled.nc success           105                            41                         60  0.819048   0.683333 1.000000     0.703125 0.811881 0.729537 0.683333 0.852460 0.874428           0.851562  41  19  45   0
+SWOT_L3_LR_SSH_Expert_006_469_20231119T063624_20231119T072750_v3.0_labeled.nc success           105                            48                         60  0.885714   0.800000 1.000000     0.789474 0.888889 0.833333 0.800000 0.921053 0.921053           0.894737  48  12  45   0
+SWOT_L3_LR_SSH_Expert_007_400_20231207T161138_20231207T170305_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_007_469_20231210T032129_20231210T041255_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_007_491_20231210T221319_20231210T230445_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_007_525_20231212T032230_20231212T041357_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_009_122_20240108T111932_20240108T121058_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_009_150_20240109T112003_20240109T121129_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_009_191_20240110T222922_20240110T232048_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_010_191_20240131T191428_20240131T200555_v3.0_labeled.nc success           105                            56                         78  0.752381   0.692308 0.964286     0.510204 0.805970 0.733696 0.675000 0.841996 0.752551           0.737245  54  24  25   2
+SWOT_L3_LR_SSH_Expert_010_219_20240201T191459_20240201T200626_v3.0_labeled.nc success           105                            38                         87  0.533333   0.436782 1.000000     0.268657 0.608000 0.492228 0.436782 0.584815 0.518853           0.634328  38  49  18   0
+SWOT_L3_LR_SSH_Expert_010_400_20240208T062654_20240208T071820_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_010_413_20240208T173542_20240208T182709_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_010_428_20240209T062725_20240209T071851_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_010_469_20240210T173644_20240210T182811_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_010_491_20240211T122835_20240211T132001_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_010_497_20240211T173716_20240211T182842_v3.0_labeled.nc success           105                            49                         78  0.723810   0.628205 1.000000     0.482143 0.771654 0.678670 0.628205 0.840278 0.794643           0.741071  49  29  27   0
+SWOT_L3_LR_SSH_Expert_010_525_20240212T173747_20240212T182913_v3.0_labeled.nc success           105                            51                         69  0.733333   0.666667 0.901961     0.574074 0.766667 0.703364 0.621622 0.826012 0.775054           0.738017  46  23  31   5
+SWOT_L3_LR_SSH_Expert_011_038_20240216T044809_20240216T053936_v3.0_labeled.nc success           105                            66                         75  0.761905   0.773333 0.878788     0.564103 0.822695 0.792350 0.698795 0.886237 0.782634           0.721445  58  17  22   8
+SWOT_L3_LR_SSH_Expert_011_066_20240217T044841_20240217T054007_v3.0_labeled.nc success           105                            41                         60  0.819048   0.683333 1.000000     0.703125 0.811881 0.729537 0.683333 0.859649 0.875000           0.851562  41  19  45   0
+SWOT_L3_LR_SSH_Expert_011_219_20240222T160004_20240222T165131_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_012_107_20240310T124303_20240310T133430_v3.0_labeled.nc success           105                             0                         63  0.400000   0.000000 0.000000     0.400000 0.000000 0.000000 0.000000      NaN      NaN           0.200000   0  63  42   0
+SWOT_L3_LR_SSH_Expert_013_219_20240404T093011_20240404T102137_v3.0_labeled.nc success           105                             0                         54  0.485714   0.000000 0.000000     0.485714 0.000000 0.000000 0.000000      NaN      NaN           0.242857   0  54  51   0
+SWOT_L3_LR_SSH_Expert_014_066_20240419T190354_20240419T195520_v3.0_labeled.nc success           105                             0                         30  0.714286   0.000000 0.000000     0.714286 0.000000 0.000000 0.000000      NaN      NaN           0.357143   0  30  75   0
+SWOT_L3_LR_SSH_Expert_014_094_20240420T190425_20240420T195551_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_014_122_20240421T190456_20240421T195622_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_014_150_20240422T190527_20240422T195653_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_014_163_20240423T061416_20240423T070542_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_014_413_20240502T043600_20240502T052726_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_014_525_20240506T043804_20240506T052930_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_015_344_20240520T141114_20240520T150241_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_016_066_20240531T123403_20240531T132530_v3.0_labeled.nc success           105                             0                         54  0.485714   0.000000 0.000000     0.485714 0.000000 0.000000 0.000000      NaN      NaN           0.242857   0  54  51   0
+SWOT_L3_LR_SSH_Expert_016_107_20240601T234323_20240602T003449_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_017_413_20240703T185113_20240703T194239_v3.0_labeled.nc success           105                             0                         27  0.742857   0.000000 0.000000     0.742857 0.000000 0.000000 0.000000      NaN      NaN           0.371429   0  27  78   0
+SWOT_L3_LR_SSH_Expert_017_428_20240704T074255_20240704T083422_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+SWOT_L3_LR_SSH_Expert_017_491_20240706T134405_20240706T143531_v3.0_labeled.nc success           105                             0                          0  1.000000   0.000000 0.000000     1.000000 0.000000 0.000000 0.000000      NaN      NaN           0.500000   0   0 105   0
+
+================================================================================
+OVERALL TEST-SET RESULTS
+================================================================================
+Validation files found: 225
+Validation valid blocks: 23625
+
+Files found:           81
+Successful files:      81
+Failed files:          0
+Valid 20x20 blocks:    8505
+Ground-truth positive: 1716
+Predicted positive (at validation-selected confidence): 2772
+
+Precision / Recall / F1 below come from Ultralytics' curve-based confidence sweep (box.mp / box.mr), read off the TEST-set curve at the confidence selected from the VALIDATION set. AP integrates the TEST-set curve over every threshold, so it needs no selected confidence.
+Confidence (selected on validation, applied to test): 0.093093
+
+Accuracy:              0.844562
+Precision (box.mp):    0.571059
+Recall (box.mr):       0.922494
+Specificity:           0.824864
+F1:                    0.705430
+AP (box.ap):           0.702507
+F0.5 (at selected conf): 0.618166
+IoU:                   0.544923
+PR AUC:                0.693041
+ROC AUC:               0.904402
+Balanced accuracy:     0.873679
+False-positive rate:   0.175136
+False-discovery rate:  0.428932
+Label positive rate:   0.201764
+Pred positive rate:    0.325926
+
+TP: 1583
+FP: 1189
+TN: 5600
+FN: 133
+
+Per-file CSV: /workspace/isw-detector/yolo11/eval_results_ood/mascarene_ridge/yolo11n_frgb_s789/block_metrics_per_file.csv
+Overall CSV:  /workspace/isw-detector/yolo11/eval_results_ood/mascarene_ridge/yolo11n_frgb_s789/block_metrics_overall.csv

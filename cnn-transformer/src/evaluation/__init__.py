@@ -1,0 +1,63 @@
+from .eval import (
+    evaluate_test_loader,
+    evaluate_and_print,
+    print_metrics,
+    save_evaluation_visualizations,
+)
+
+from .dense_eval import (
+    evaluate_dense_loader,
+    upsample_patch_probs,
+    aggregate_dense,
+    detection_fidelity_metrics,
+    grid_artifact_ratio,
+    image_structure_alignment,
+    equivariance_error,
+    localized_perturbation_ratio,
+    format_ablation_table,
+    collect_aggregated_scores,
+    select_best_threshold,
+    BASELINE_MODES,
+    THRESHOLD_SELECTABLE_METRICS,
+)
+
+from .viz import (
+    plot_auc_bar,
+    plot_auc_curves,
+    plot_confusion_matrix,
+    plot_metric_bar,
+    plot_probability_histogram,
+    plot_sample_result,
+    plot_top_error_samples,
+    plot_best_samples,
+    plot_dense_comparison,
+)
+
+__all__ = [
+    "evaluate_test_loader",
+    "evaluate_and_print",
+    "print_metrics",
+    "save_evaluation_visualizations",
+    "evaluate_dense_loader",
+    "upsample_patch_probs",
+    "aggregate_dense",
+    "detection_fidelity_metrics",
+    "grid_artifact_ratio",
+    "image_structure_alignment",
+    "equivariance_error",
+    "localized_perturbation_ratio",
+    "format_ablation_table",
+    "collect_aggregated_scores",
+    "select_best_threshold",
+    "BASELINE_MODES",
+    "THRESHOLD_SELECTABLE_METRICS",
+    "plot_auc_bar",
+    "plot_auc_curves",
+    "plot_confusion_matrix",
+    "plot_metric_bar",
+    "plot_probability_histogram",
+    "plot_sample_result",
+    "plot_top_error_samples",
+    "plot_best_samples",
+    "plot_dense_comparison",
+]

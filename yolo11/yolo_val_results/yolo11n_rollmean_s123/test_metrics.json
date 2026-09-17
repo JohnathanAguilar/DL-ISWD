@@ -1,0 +1,12 @@
+{
+  "run_name": "yolo11n_rollmean_s123",
+  "split": "test",
+  "data": "/workspace/data/bob/highpass_grouped_yolo_splits/rolling_mean_highpass_magma/data.yaml",
+  "imgsz": 1280,
+  "precision": 0.4717182292585037,
+  "recall": 0.41159971214800295,
+  "f1": 0.43961314103641186,
+  "map50": 0.3963014207969731,
+  "map50_95": 0.10591978492470566,
+  "fitness": 0.10591978492470566
+}

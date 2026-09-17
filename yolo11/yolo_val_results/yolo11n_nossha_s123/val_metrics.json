@@ -1,0 +1,12 @@
+{
+  "run_name": "yolo11n_nossha_s123",
+  "split": "val",
+  "data": "/workspace/data/bob/composite_grouped_yolo_splits/no_ssha_composite/data.yaml",
+  "imgsz": 1280,
+  "precision": 0.1814678893618385,
+  "recall": 0.6319444444444444,
+  "f1": 0.2819667707536479,
+  "map50": 0.2160469972846649,
+  "map50_95": 0.0706377935372354,
+  "fitness": 0.0706377935372354
+}

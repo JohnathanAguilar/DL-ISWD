@@ -1,0 +1,45 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# ── OS ──────────────────────────────────────────────────
+.DS_Store
+
+# ── Datasets / staged inputs ───────────────────────────
+data/
+data
+ood_staging/
+results/
+cnn-transformer/src/visualize/stores/
+
+# ── Training runs & model weights ──────────────────────
+runs/
+runs_lr5e5/
+runs_customaug/
+weights/
+*.pt
+*.pth
+*.ckpt
+
+# ── Inference / prediction outputs ─────────────────────
+# NOTE: eval_results*/ and yolo_val_results*/ are intentionally NOT ignored
+results/
+results_dense/
+results_ood/
+results_customaug/
+results_lr5e5/
+cnn-transformer/results
+cnn-transformer/models
+
+# ── Batch-run / pipeline scratch (scripts are kept) ────
+logs/
+*.out
+progress*.log
+device*.txt
+*.txt.tmp
+
+# ── Stray training logs ────────────────────────────────
+train_*.log
+*.log.attempt*

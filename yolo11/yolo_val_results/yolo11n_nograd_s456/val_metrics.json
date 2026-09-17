@@ -1,0 +1,12 @@
+{
+  "run_name": "yolo11n_nograd_s456",
+  "split": "val",
+  "data": "/workspace/data/bob/composite_grouped_yolo_splits/no_gradient_composite/data.yaml",
+  "imgsz": 1280,
+  "precision": 0.414704444421517,
+  "recall": 0.4444444444444444,
+  "f1": 0.4290597096688287,
+  "map50": 0.3407983383604814,
+  "map50_95": 0.09064972092323444,
+  "fitness": 0.09064972092323444
+}

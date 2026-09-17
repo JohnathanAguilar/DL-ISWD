@@ -1,0 +1,49 @@
+# Dense pixel-resolution confidence refinement.
+# The detector below must match the checkpoint named in dense.detector_ckpt;
+# the dense head is trained on top of it without changing it.
+
+model:
+  embed_dim: 128
+  heads: 4
+  transformer_layers: 3
+  use_sra: false
+  block_size: 10
+
+dense:
+  detector_ckpt: models/rolling_mean_highpass/best.pt
+  hidden: 64
+  use_cnn_features: true   # false = transformer-only ablation
+  freeze_backbone: true    # Stage 1; false fine-tunes end to end
+  token_upsample: bilinear # or nearest, to reproduce pre-fix ablations; removes the
+                           # block-seam step function in the token broadcast
+
+loss:
+  alpha: 0.7               # same positive-class weighting as the detector
+  tau: 0.1                 # soft-majority temperature
+  lambda_teacher: 1.0      # preserve the frozen detector's confidences
+  lambda_edge: 1.0e-3      # edge-aware smoothness (diffuse, over the whole map)
+  edge_channel: -1         # guidance channel; -1 = last (high-pass SSHA)
+
+train:
+  batch_size: 8
+  epochs: 20
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  grad_clip: 1.0
+
+eval:
+  threshold: 0.5
+  baselines: [nearest, bilinear, bicubic, gaussian]
+  run_equivariance: true
+  run_perturbation: true
+  flip_dims: [-1]
+
+# Tune lambda_teacher / lambda_edge on the validation split only.
+# Report mean +/- std over at least 3 seeds, preferably 5.
+#
+# split_seed stays fixed across every run and every variant so all numbers come
+# from the same pass-level grouped split; only `seeds` varies, which isolates
+# dense-head initialization as the source of the reported spread.
+split_seed: 123
+seeds: [42, 43, 44, 45, 46]
+device: mps

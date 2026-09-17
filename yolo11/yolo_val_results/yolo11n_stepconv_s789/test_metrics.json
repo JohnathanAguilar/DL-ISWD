@@ -1,0 +1,12 @@
+{
+  "run_name": "yolo11n_stepconv_s789",
+  "split": "test",
+  "data": "/workspace/data/bob/highpass_grouped_yolo_splits/stepped_convolution_highpass_magma/data.yaml",
+  "imgsz": 1280,
+  "precision": 0.7728908070848978,
+  "recall": 0.5625,
+  "f1": 0.6511218688621923,
+  "map50": 0.6761324898571954,
+  "map50_95": 0.29592843219057047,
+  "fitness": 0.29592843219057047
+}

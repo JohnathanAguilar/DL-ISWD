@@ -1,0 +1,20 @@
+tiling:
+  mode: floor        # or 'ceil'
+  block_h: 10
+  block_w: 10
+
+labeling:
+  source_boxes: null # path to boxes (optional); if null, all negatives unless manually set
+  out_csv_train: data/annotations/blocks/train.csv
+  out_csv_val:   data/annotations/blocks/val.csv
+  out_csv_test:  data/annotations/blocks/test.csv
+  image_height: 69
+  image_width:  709
+  positive_rule:
+    type: coverage   # 'coverage' or 'iou'
+    threshold: 0.25  # mark block positive if coverage ≥ 25%
+
+splits:
+  train_list: data/splits/train.txt
+  val_list:   data/splits/val.txt
+  test_list:  data/splits/test.txt

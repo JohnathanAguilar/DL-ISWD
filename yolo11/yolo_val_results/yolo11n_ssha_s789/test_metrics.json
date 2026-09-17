@@ -1,0 +1,12 @@
+{
+  "run_name": "yolo11n_ssha_s789",
+  "split": "test",
+  "data": "/workspace/data/bob/highpass_grouped_yolo_splits/normal_unfiltered_ssha_magma/data.yaml",
+  "imgsz": 1280,
+  "precision": 0.04303353788283962,
+  "recall": 0.890625,
+  "f1": 0.08210013216140798,
+  "map50": 0.4363748920647449,
+  "map50_95": 0.14390596832266866,
+  "fitness": 0.14390596832266866
+}

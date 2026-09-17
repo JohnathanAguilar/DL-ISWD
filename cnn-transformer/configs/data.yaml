@@ -1,0 +1,7 @@
+images:
+  height: 69
+  width: 709
+splits:
+  train: data/splits/train.txt
+  val:   data/splits/val.txt
+  test:  data/splits/test.txt

@@ -1,0 +1,12 @@
+{
+  "run_name": "yolo11n_gradmag_s123",
+  "split": "val",
+  "data": "/workspace/data/bob/highpass_grouped_yolo_splits/gradient_magnitude_magma/data.yaml",
+  "imgsz": 1280,
+  "precision": 0.6950816434795193,
+  "recall": 0.5486111111111112,
+  "f1": 0.6132214107297801,
+  "map50": 0.6586752715410102,
+  "map50_95": 0.3348277142243556,
+  "fitness": 0.3348277142243556
+}

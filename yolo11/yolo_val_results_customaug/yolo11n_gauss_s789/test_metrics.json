@@ -1,0 +1,12 @@
+{
+  "run_name": "yolo11n_gauss_s789",
+  "split": "test",
+  "data": "/workspace/data/bob/highpass_grouped_yolo_splits/gaussian_filter_highpass_magma/data.yaml",
+  "imgsz": 1280,
+  "precision": 0.789202215920514,
+  "recall": 0.703125,
+  "f1": 0.7436811473371502,
+  "map50": 0.8446821869385679,
+  "map50_95": 0.5673815479119735,
+  "fitness": 0.5673815479119735
+}

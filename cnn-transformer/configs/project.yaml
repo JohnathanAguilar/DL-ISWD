@@ -1,0 +1,9 @@
+paths:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  blocks_train: data/annotations/blocks/train.csv
+  blocks_val: data/annotations/blocks/val.csv
+  blocks_test: data/annotations/blocks/test.csv
+device: mps       # use 'mps' on Apple silicon, otherwise 'cpu' or 'cuda'
+seed: 42

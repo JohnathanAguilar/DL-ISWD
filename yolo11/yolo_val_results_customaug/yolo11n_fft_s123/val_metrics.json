@@ -1,0 +1,12 @@
+{
+  "run_name": "yolo11n_fft_s123",
+  "split": "val",
+  "data": "/workspace/data/bob/highpass_grouped_yolo_splits/fft_highpass_magma/data.yaml",
+  "imgsz": 1280,
+  "precision": 0.759168581767795,
+  "recall": 0.6666666666666666,
+  "f1": 0.7099170656650519,
+  "map50": 0.7616119409348082,
+  "map50_95": 0.4537363058097526,
+  "fitness": 0.4537363058097526
+}
